@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cara Pembayaran — NusaKlik Store</title>
+    <meta name="description" content="Daftar metode pembayaran dan panduan konfirmasi pesanan di NusaKlik Store." />
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div id="nk-header"></div>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="../index.html">Beranda</a>
+            <span aria-hidden="true">/</span>
+            <span>Cara Pembayaran</span>
+          </nav>
+          <h1 class="page-title">Cara Pembayaran</h1>
+          <p class="page-lead">
+            Pilih metode pembayaran yang paling nyaman bagi Anda. Informasi rekening di bawah ini bersumber langsung dari file config.js (contoh placeholder yang dapat diganti).
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="info-cards-grid" id="nk-payment-methods" style="margin-bottom: 36px;"></div>
+
+          <div class="prose-container">
+            <h2>Panduan Konfirmasi Pembayaran</h2>
+            <ol>
+              <li>Lakukan checkout melalui keranjang belanja atau tombol <strong>Beli Sekarang</strong> sehingga ringkasan pesanan terkirim ke WhatsApp admin.</li>
+              <li>Transfer sesuai <strong>Total Pembayaran</strong> ke salah satu rekening atau dompet digital resmi yang tercantum di atas.</li>
+              <li>Kirimkan bukti transfer pada chat WhatsApp yang sama agar pesanan dapat diverifikasi dengan cepat.</li>
+              <li>Setelah verifikasi selesai, tautan unduh file produk digital akan dikirimkan langsung ke WhatsApp atau email Anda.</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="nk-footer"></div>
+    <div id="nk-overlays"></div>
+
+    <script src="../config.js"></script>
+    <script src="../script.js"></script>
+  </body>
+</html>

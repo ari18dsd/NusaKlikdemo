@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" width="260" height="64" role="img" aria-label="NusaKlik Store">
+  <g transform="translate(4, 4) scale(0.55)">
+    <path d="M38 30 V22 C38 12, 46 6, 56 6 C66 6, 74 12, 74 22 V30" fill="none" stroke="#93C5FD" stroke-width="6.5" stroke-linecap="round"/>
+    <path d="M24 30 H88 L95 82 C96 89, 90 95, 83 95 H29 C22 95, 16 89, 17 82 Z" fill="#FFFFFF"/>
+    <path d="M47 45 L75 63 L62 67 L67 80 L59 83 L54 70 L44 79 Z" fill="#0B2545"/>
+    <path d="M10 56 C4 74, 24 91, 56 91 C82 91, 104 75, 104 54 C104 49, 101 44, 97 41 C99 47, 98 55, 92 63 C81 77, 56 84, 33 78 C19 74, 13 64, 15 53 Z" fill="#60A5FA"/>
+  </g>
+
+  <g transform="translate(74, 0)">
+    <text x="0" y="34" font-family="'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.8">
+      <tspan fill="#FFFFFF">Nusa</tspan><tspan fill="#60A5FA">Klik</tspan>
+    </text>
+    <line x1="2" y1="49" x2="42" y2="49" stroke="#60A5FA" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <text x="77" y="54" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#E2E8F0" letter-spacing="0.4">Store</text>
+    <line x1="112" y1="49" x2="152" y2="49" stroke="#60A5FA" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  </g>
+</svg>

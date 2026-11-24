@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Produk — NusaKlik Store</title>
+    <meta name="description" content="Detail produk dan spesifikasi lengkap di NusaKlik Store." />
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div id="nk-header"></div>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="../index.html">Beranda</a>
+            <span aria-hidden="true">/</span>
+            <a href="../index.html#katalog">Katalog</a>
+            <span aria-hidden="true">/</span>
+            <span id="nk-pdp-crumb-name">Detail Produk</span>
+          </nav>
+          <div id="nk-pdp-root"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">Rekomendasi Lainnya</p>
+              <h2 class="section-title">Produk Digital Terkait</h2>
+            </div>
+            <a href="../index.html#katalog" class="btn btn-outline btn-sm">Semua Katalog</a>
+          </div>
+          <div class="product-grid" id="nk-related-products"></div>
+        </div>
+      </section>
+    </main>
+
+    <div id="nk-footer"></div>
+    <div id="nk-overlays"></div>
+
+    <script src="../config.js"></script>
+    <script src="../script.js"></script>
+  </body>
+</html>

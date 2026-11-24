@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" width="260" height="64" role="img" aria-label="NusaKlik Store">
+  <defs>
+    <linearGradient id="nkBagGradHdr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E78FF"/>
+      <stop offset="55%" stop-color="#0D5BD9"/>
+      <stop offset="100%" stop-color="#0A337A"/>
+    </linearGradient>
+    <linearGradient id="nkSwooshHdr" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D82FF"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(4, 4) scale(0.55)">
+    <path d="M12 52 C14 34, 42 24, 72 28 C96 31, 107 43, 102 56" fill="none" stroke="url(#nkSwooshHdr)" stroke-width="5.5" stroke-linecap="round" opacity="0.9"/>
+    <path d="M38 30 V22 C38 12, 46 6, 56 6 C66 6, 74 12, 74 22 V30" fill="none" stroke="#0B2545" stroke-width="6.5" stroke-linecap="round"/>
+    <path d="M24 30 H88 L95 82 C96 89, 90 95, 83 95 H29 C22 95, 16 89, 17 82 Z" fill="url(#nkBagGradHdr)"/>
+    <path d="M47 45 L75 63 L62 67 L67 80 L59 83 L54 70 L44 79 Z" fill="#FFFFFF"/>
+    <path d="M10 56 C4 74, 24 91, 56 91 C82 91, 104 75, 104 54 C104 49, 101 44, 97 41 C99 47, 98 55, 92 63 C81 77, 56 84, 33 78 C19 74, 13 64, 15 53 Z" fill="url(#nkSwooshHdr)"/>
+  </g>
+
+  <g transform="translate(74, 0)">
+    <text x="0" y="34" font-family="'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.8">
+      <tspan fill="#0B2545">Nusa</tspan><tspan fill="#0D5BD9">Klik</tspan>
+    </text>
+    <line x1="2" y1="49" x2="42" y2="49" stroke="#6495C9" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="77" y="54" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#0B2545" letter-spacing="0.4">Store</text>
+    <line x1="112" y1="49" x2="152" y2="49" stroke="#6495C9" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>
